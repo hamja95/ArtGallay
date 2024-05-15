@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>ArtGallary</title>
+</head>
+
+<body>
+
+
+  <div class="mainpagevis">
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+          <a class="logo" onclick="home()">
+            <h1>ArtGallary</h1>
+
+          </a>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" onclick="artist()">Artist</a>
+              <a class="nav-link" onclick="favorite()">favourite</a>
+              <a class="nav-link" onclick="login()">Login</a>
+              <a class="nav-link" onclick="register()">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+      <div class="hero">
+        <img src="images/pic8.jpg" alt="" />
+      </div>
+
+      <div class="content">
+
+        <div class="search">
+          <input type="text" placeholder="Type Art,Artist,category" />
+          <a href="">Search</a>
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+
+    <section class="section Auction">
+      <div class="title">
+        <h1>Arts For Auction</h1>
+        <p>
+          over 2000+ arts are on auction
+        </p>
+      </div>
+
+      <div class="Auction-center container">
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic9.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Wood Work Dream</p>
+            <div>
+              <span>$2499.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic10.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Golden Deer</p>
+            <div>
+              <span>$7080.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic11.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Beauty with Art</p>
+            <div>
+              <span>$176.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic12.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>The Iconic Flinders</p>
+            <div>
+              <span>$2180.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic13.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Behind the Nature</p>
+            <div>
+              <span>$700</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic14.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Midnight Gold Ring</p>
+            <div>
+              <span>$3770.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic15.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Colour Combo Horse</p>
+            <div>
+              <span>$690.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="images/pic16.png" alt="" />
+            </div>
+            <div class="pos">
+              <span>Dtails</span>
+              <span onclick="fav()">Favourite</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Fly for Hope</p>
+            <div>
+              <span>$890.00</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="section grid-layout">
+      <div class="title">
+        <h1>Popular Arts</h1>
+      </div>
+
+      <div class="wrapper container">
+        <div class="box box1">
+          <img src="images/pic20.png" alt="" />
+        </div>
+        <div class="box box2">
+          <img src="images/pic17.png" alt="" />
+        </div>
+        <div class="box box3">
+          <img src="images/pic18.png" alt="" />
+        </div>
+        <div class="box box4">
+          <img src="images/pic19.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+
+          <a>About us</a>
+          <a><span onclick="contact()">Contact Us</span></a>
+          <a>Term & Conditions</a>
+
+        </div>
+
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-youtube"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- login -->
+  <div class="loginvisible">
+    <div class="pic">
+      <img src="images/pic8.jpg" alt="">
+    </div>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login" onclick="home()">
+
+
+        <div class="signup_link">
+          Not a member? <a onclick="register()">Signup</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--contact-->
+
+  <div class="contactvisible">
+
+    <div class="contactinfo">
+      <h1>Contact Us</h1>
+
+
+
+      <p>If you have any questions or need to get in touch with us, you can use the contact information below:</p>
+
+      <address>
+        <p>Email: artgallary@gmail.com</p>
+        <p>Phone: 123-456-789</p>
+      </address>
+
+      <h2>Fedback Form</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Fedback:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      </form>
+
+      <h2>History</h2>
+      <table id="entriesTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Fedback</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="entriesList">
+          <!-- Entries will be displayed here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <!--resister-->
+  <div class="registervisible">
+
+    <div class="registerinf">
+
+      <h1>User Registration</h1>
+
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+
+        <button type="submit" onclick="home()">Register</button>
+      </form>
+    </div>
+
+
+
+  </div>
+
+
+  
+  <!--Artist-->
+  <section class="popular-arts">
+    <h2>Popular Artist</h2>
+    <div class="artist-card">
+      <img src="./images/pablo.jpg" alt="">
+      <h3>Name : Pablo Picasso</h3>
+      <p>Spanish ,1881 - 1973</p>
+      <p>1170 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/claude.jpg" alt="">
+      <h3>Name :Claude Monet</h3>
+      <p>French , 1840-1926</p>
+      <p>1367 artworks</p>
+    </div>
+
+    <div class="artist-card">
+      <img src="./images/Salvador-Dali.jpg" alt="">
+      <h3>Name : Salvador-Dali</h3>
+      <p>Spanish, 1904 - 1989</p>
+      <p> 1178 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/Zdzislaw Beksinski.jpg" alt="">
+      <h3>Name : Zdzislaw Beksinski</h3>
+      <p>Polish, 1929 - 2005</p>
+      <p>708 artworks</p>
+    </div>
+
+    <div class="artist-card">
+      <img src="./images/Vincent van Gogh.jpg" alt="">
+      <h3>Name : Vincent van Gogh</h3>
+      <p>Dutch, 1853 - 1890</p>
+      <p>1932 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/henri-matisse.jpg" alt="">
+      <h3>Namw :Henri-matisse</h3>
+      <p>French, 1869 - 1954</p>
+      <p>1007 artworks</p>
+    </div>
+
+    <div class="artist-card">
+      <img src="./images/Rene Magritte.jpg" alt="">
+      <h3>Name :Rene Magritte</h3>
+      <p>Belgian, 1898 - 1967</p>
+      <p>372 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/Paul Cezanne.jpg" alt="">
+      <h3>Name : Paul Cezanne</h3>
+      <p>French, 1839 - 1906</p>
+      <p>588 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/Edward Hopper.jpg" alt="">
+      <h3>Name: Edward Hopper</h3>
+      <p>American, 1882 - 1967</p>
+      <p>182 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/Leonardo da Vinci.jpg" alt="">
+      <h3>Name: Leonardo da Vinci</h3>
+      <p>Italian, 1452 - 1519</p>
+      <p>205 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/Jean-Michel Basquiat.jpg" alt="">
+      <h3>Name:Jean-Michel Basquiat</h3>
+      <p>American, 1960 - 1988</p>
+      <p>157 artworks</p>
+    </div>
+    <div class="artist-card">
+      <img src="./images/pierre auguste renoir.jpg" alt="">
+      <h3>Name : pierre auguste renoir</h3>
+      <p>French, 1841 - 1919</p>
+      <p>1413 artworks</p>
+    </div>
+    <button type="submit" onclick="home()">Back</button>
+  </section>
+
+  <!--favourite-->
+  <section class="section Favorite">
+    <div class="title">
+      <h1>Favourite Arts</h1>
+    </div>
+
+    <div class="Favorite-center container">
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic9.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Wood Work Dream</p>
+          <div>
+            <span>$2499.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic10.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Golden Deer</p>
+          <div>
+            <span>$7080.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic11.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Beauty with Art</p>
+          <div>
+            <span>$176.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic12.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>The Iconic Flinders</p>
+          <div>
+            <span>$2180.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic13.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Behind the Nature</p>
+          <div>
+            <span>$700</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic14.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Midnight Gold Ring</p>
+          <div>
+            <span>$3770.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic15.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Colour Combo Horse</p>
+          <div>
+            <span>$690.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="top">
+          <div class="overlay">
+            <img src="images/pic16.png" alt="" />
+          </div>
+          <div class="pos">
+            <span>Dtails</span>
+            <span>Unfavourite</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>Fly for Hope</p>
+          <div>
+            <span>$890.00</span>
+            <span><i class="far fa-eye"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="submit" onclick="home()">Back</button>
+  </section>
+
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
